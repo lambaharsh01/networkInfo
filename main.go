@@ -5,12 +5,13 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"networkInfo/helper"
-	"networkInfo/models"
 	"os"
 	"os/user"
 	"runtime"
 	"time"
+
+	"github.com/lambaharsh01/networkInfo/helper"
+	"github.com/lambaharsh01/networkInfo/models"
 )
 
 func main() {

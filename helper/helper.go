@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"net"
-	"networkInfo/models"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/lambaharsh01/networkInfo/models"
 )
 
 func GenerateIPs(subNet net.IP, mask net.IPMask) []string {
